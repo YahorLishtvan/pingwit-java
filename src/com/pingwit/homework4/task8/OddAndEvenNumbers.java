@@ -9,7 +9,7 @@ public class OddAndEvenNumbers {
         System.out.println("Hello !\n" +
                 "Well, I will calculate the sum of even numbers, " +
                 "the sum of odd numbers and the total sum of all numbers from 0 to 100.");
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100; i++) { // а давай заменим 3 цикла на 1, в котором посчитаем сумму четных и нечетных, а после цикла сложением двух переменных узнаем общую сумму
             if (i % 2 == 0) {
                 evenNumbersSumm += i;
             }
