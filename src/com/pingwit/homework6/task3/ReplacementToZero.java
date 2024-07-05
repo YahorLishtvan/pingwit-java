@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 public class ReplacementToZero {
     public static void main(String[] args) {
-        int i = 0;
         Scanner scanner = new Scanner(System.in);
         int[] myArray = new int[4];
-        for (i = 0; i < myArray.length; i++) {
+        for (int i = 0; i < myArray.length; i++) {
             System.out.println("Please, enter " + (i + 1) + " number for array");
             myArray[i] = scanner.nextInt();
             if (myArray[i] == myArray.length) {

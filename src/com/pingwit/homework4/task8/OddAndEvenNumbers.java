@@ -5,7 +5,6 @@ public class OddAndEvenNumbers {
 
         int evenNumbersSumm = 0;
         int oddNumbersSumm = 0;
-        int totalNumbersSumm = 0;
         System.out.println("Hello !\n" +
                 "Well, I will calculate the sum of even numbers, " +
                 "the sum of odd numbers and the total sum of all numbers from 0 to 100.");
@@ -17,7 +16,7 @@ public class OddAndEvenNumbers {
                 oddNumbersSumm += i;
             }
         }
-        totalNumbersSumm = evenNumbersSumm + oddNumbersSumm;
+       int totalNumbersSumm = evenNumbersSumm + oddNumbersSumm;
         System.out.println("It is the sum even numbers : " + evenNumbersSumm);
         System.out.println("It is the sum odd numbers : " + oddNumbersSumm);
         System.out.println("It is the total numbers sum : " + totalNumbersSumm);

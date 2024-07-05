@@ -14,8 +14,8 @@ public class SummMinMaxArray {
             sum+=myArray[i];
 
         }
-        System.out.println("Your max number is "+ Arrays.stream(myArray).max().toString());
-        System.out.println("Your min number is "+ Arrays.stream(myArray).min().toString());
+        System.out.println("Your max number is "+ Arrays.stream(myArray).max());
+        System.out.println("Your min number is "+ Arrays.stream(myArray).min());
         System.out.println("Your sum number is "+sum);
     }
 }
