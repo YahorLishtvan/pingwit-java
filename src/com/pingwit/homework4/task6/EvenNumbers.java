@@ -1,5 +1,5 @@
 package com.pingwit.homework4.task6;
-//+
+
 public class EvenNumbers {
     public static void main(String[] args) {
         System.out.println("I show even numbers from 2 to 100!");

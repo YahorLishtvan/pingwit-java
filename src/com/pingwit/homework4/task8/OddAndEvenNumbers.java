@@ -9,21 +9,17 @@ public class OddAndEvenNumbers {
         System.out.println("Hello !\n" +
                 "Well, I will calculate the sum of even numbers, " +
                 "the sum of odd numbers and the total sum of all numbers from 0 to 100.");
-        for (int i = 0; i < 100; i++) { // а давай заменим 3 цикла на 1, в котором посчитаем сумму четных и нечетных, а после цикла сложением двух переменных узнаем общую сумму
+        for (int i = 0; i < 100; i++) {
             if (i % 2 == 0) {
                 evenNumbersSumm += i;
             }
-        }
-        System.out.println("It is the sum even numbers : " + evenNumbersSumm);
-        for (int i = 0; i < 100; i++) {
             if (i % 2 != 0) {
                 oddNumbersSumm += i;
             }
         }
+        totalNumbersSumm = evenNumbersSumm + oddNumbersSumm;
+        System.out.println("It is the sum even numbers : " + evenNumbersSumm);
         System.out.println("It is the sum odd numbers : " + oddNumbersSumm);
-        for (int i = 0; i < 100; i++) {
-            totalNumbersSumm += i;
-        }
         System.out.println("It is the total numbers sum : " + totalNumbersSumm);
     }
 }

@@ -1,7 +1,5 @@
 package com.pingwit.homework4.task9;
 
-import java.util.Scanner; // лишний импорт
-
 //пока некорректно выводит, подумай пока сам как поправить. Если не получится, напиши и помогу
 public class Triangles {
     public static void main(String[] args) {

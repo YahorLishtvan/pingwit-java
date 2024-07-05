@@ -2,17 +2,16 @@ package com.pingwit.homework4.task1;
 
 public class RunningExercises {
     public static void main(String[] args) {
-        double defoultDestance = 10; // опечатка в слове distance -> i
+        double defoultDistance = 10;
+        int countDay =7;
         double totalDistance = 0;
         int counter = 0;
         do {
-            totalDistance += defoultDestance;
-            defoultDestance = defoultDestance * 1.1;
+            totalDistance += defoultDistance;
+            defoultDistance = defoultDistance * 1.1;
             counter++;
         }
-        while (counter < 7); // когда где-то встречается в коде просто число, то непонятно что оно обозначает, это называется "магическое число", создай переменную для этого числа
-        { // фигурные скобки здесь не нужны, достаточно будет абзаца
+        while (counter < countDay);
             System.out.println(totalDistance);
-        }
     }
 }
